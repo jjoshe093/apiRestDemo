@@ -20,7 +20,7 @@ public class LibroController {
 
     @GetMapping("/")
     public String holaMundo(){
-        return "Hola mundo desde mi API";
+        return "José y Nicole Forever and Ever";
     }
 
     @GetMapping("/api/books")
